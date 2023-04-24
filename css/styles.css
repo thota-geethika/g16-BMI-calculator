@@ -1,0 +1,60 @@
+
+body{
+    background-color: rgb(213, 241, 217);
+    /* background-image: linear-gradient(to right, rgb(248, 145, 145), rgb(154, 252, 154)); */
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 25% 40%;
+    border: 2px solid black;
+    padding: 1%;
+    grid-gap: 20px;
+    grid-auto-rows: minmax(30px,auto);
+    width: 35%;
+    box-sizing: border-box;
+    padding: 4% 3%;
+    justify-content: center;
+    font-size: larger;
+    margin: 1% auto 1%;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, rgb(179, 247, 179) ,rgb(141, 141, 252));
+}
+
+#grid-item-button{
+    font-size: large;
+    grid-column: span 2;
+    width: 60%;
+    justify-self: center;
+    margin-top: 20px;
+    border-radius: 4px;
+    padding: 2%;
+    background-color: rgb(228, 228, 228);
+}
+
+#grid-item-button:hover{
+    background-color: rgb(180, 180, 180);
+}
+
+input{
+    font-size: large;
+    padding: 2%;
+}
+
+
+
+.resultMessage{
+    font-size: x-large;
+    background-color: rgb(252, 250, 155);
+    font-weight: bold;
+    padding: 1%;
+    margin: 0 auto;
+    display: table;
+}
+
+#result{
+    font-size: large;
+    color: rgb(0, 0, 255);
+    font-weight: bold;
+}

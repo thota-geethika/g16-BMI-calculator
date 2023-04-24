@@ -5,10 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <h1 style="text-align: center; margin-top: 7%;">BMI Calculator</h1>
     <div class="container">
-        
+        <label for="height">Height</label>
+        <input type="number" id="height" placeholder="cm" autofocus>
+        <label for="weight">Weight</label>
+        <input type="number" id="weight" placeholder="kg">
+        <button id="grid-item-button" onclick="calculateBMI()">Calculate BMI</button>
     </div>
+
+    <p id="result" style="text-align: center;"></p>
+    <span id="resultMsg"></span>
+
+    <script src="index.js"></script>
 </body>
 </html>
